@@ -1,0 +1,9 @@
+.main-page
+{
+    @apply dark:bg-black dark:text-white bg-white text-black min-h-screen select-none;
+}
+.main-second
+{
+    @apply grid grid-cols-1 gap-10 mx-10 md:grid-cols-3;
+}
+.main-button{@apply bg-green-400 w-full py-2 rounded-lg hover:bg-green-300;}
